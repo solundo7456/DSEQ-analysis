@@ -1,9 +1,5 @@
 #creating our table
-getwd()
 
-setwd("/home/ndono_school/Downloads/bioinformatics/nasopharyngeal_swabs")
-
-getwd()
 counts <- read.table("GSE152075_raw_counts_GEO.txt",
 		     header = TRUE,
 		    row.names = 1,
@@ -17,8 +13,6 @@ library(statmod)
 
 #getting our metadata
 # Replace with your actual file path
-getwd()
-setwd("/home/ndono_school/Downloads/bioinformatics/nasopharyngeal_swabs")
 
 file_path <- "GSE152075_series_matrix.txt.gz"
 # Load the GEO series matrix
