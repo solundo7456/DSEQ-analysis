@@ -12,7 +12,6 @@ library(limma)
 library(statmod)
 
 #getting our metadata
-# Replace with your actual file path
 
 file_path <- "GSE152075_series_matrix.txt.gz"
 # Load the GEO series matrix
